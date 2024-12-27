@@ -11,14 +11,14 @@ internal class Program
 
         do
         {
-            Console.WriteLine("vvedite pervoe chislo: ");
+            Console.WriteLine("Введіть перше число: ");
             firstNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("vvedite vtoroe chislo: ");
+            Console.WriteLine("Введіть друге число: ");
             secondNum = Convert.ToInt32(Console.ReadLine());
 
             try
             {
-                Console.WriteLine(" +,-,*,/ ");
+                Console.WriteLine("Введіть математичну дію: +, -, *, / ");
                 mathAction = Convert.ToChar(Console.ReadLine());
                 switch (mathAction)
                 {
@@ -36,10 +36,10 @@ internal class Program
                         result = firstNum / secondNum;
                         break;
                     default:
-                        Console.WriteLine("Nekorektna matem diya");
-                        break;
+                        Console.WriteLine("Некоректна математична дія");
+                        continue;
                 }
-                Console.WriteLine($"Resultat {firstNum} {mathAction} {secondNum} = {result}");
+                Console.WriteLine($"Результат: {firstNum} {mathAction} {secondNum} = {result}");
 
             }
             catch (FormatException)
