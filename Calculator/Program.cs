@@ -33,7 +33,15 @@ internal class Program
                         result = firstNum * secondNum;
                         break;
                     case '/':
-                        result = firstNum / secondNum;
+                        if (secondNum != 0)
+                        {
+                            result = firstNum / secondNum;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ділення на 0 неможливе");
+                            continue;
+                        }
                         break;
                     default:
                         Console.WriteLine("Некоректна математична дія");
