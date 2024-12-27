@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Linq.Expressions;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -14,6 +16,8 @@
 
         do
         {
+            try
+            {
                 Console.WriteLine(" +,-,*,/ ");
                 mathAction = Convert.ToChar(Console.ReadLine());
                 switch (mathAction)
@@ -34,7 +38,17 @@
                     default:
                         Console.WriteLine("Nekorektna matem diya");
                 }
-            Console.WriteLine($"Resultat {firstNum} {secondNum} = {result}");
-            } while (true) ;
+                Console.WriteLine($"Resultat {firstNum} {mathAction} {secondNum} = {result}");
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Введіть ціле число");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Сталася помилка {ex.Message}");
+            }
+        } while (true) ;
     }
 }
