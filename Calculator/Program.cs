@@ -9,13 +9,13 @@ internal class Program
         int result = 0;
         char mathAction;
 
-        Console.WriteLine("vvedite pervoe chislo: ");
-        firstNum = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("vvedite vtoroe chislo: ");
-        secondNum = Convert.ToInt32(Console.ReadLine());
-
         do
         {
+            Console.WriteLine("vvedite pervoe chislo: ");
+            firstNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("vvedite vtoroe chislo: ");
+            secondNum = Convert.ToInt32(Console.ReadLine());
+
             try
             {
                 Console.WriteLine(" +,-,*,/ ");
@@ -37,6 +37,7 @@ internal class Program
                         break;
                     default:
                         Console.WriteLine("Nekorektna matem diya");
+                        break;
                 }
                 Console.WriteLine($"Resultat {firstNum} {mathAction} {secondNum} = {result}");
 

@@ -1,0 +1,15 @@
+D:\Calculator\4.2HwCSharp\Calculator\bin\Debug\net8.0\Calculator.exe
+D:\Calculator\4.2HwCSharp\Calculator\bin\Debug\net8.0\Calculator.deps.json
+D:\Calculator\4.2HwCSharp\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+D:\Calculator\4.2HwCSharp\Calculator\bin\Debug\net8.0\Calculator.dll
+D:\Calculator\4.2HwCSharp\Calculator\bin\Debug\net8.0\Calculator.pdb
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.dll
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.pdb
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+D:\Calculator\4.2HwCSharp\Calculator\obj\Debug\net8.0\ref\Calculator.dll
