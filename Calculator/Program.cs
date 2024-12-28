@@ -11,13 +11,13 @@ internal class Program
 
         do
         {
-            Console.WriteLine("Введіть перше число: ");
-            firstNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введіть друге число: ");
-            secondNum = Convert.ToInt32(Console.ReadLine());
-
             try
             {
+                Console.WriteLine("Введіть перше число: ");
+                firstNum = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Введіть друге число: ");
+                secondNum = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Введіть математичну дію: +, -, *, / ");
                 mathAction = Convert.ToChar(Console.ReadLine());
                 switch (mathAction)
