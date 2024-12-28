@@ -33,11 +33,11 @@ internal class Program
                         result = firstNum * secondNum;
                         break;
                     case '/':
-                        if (secondNum != 0)
+                        try 
                         {
                             result = firstNum / secondNum;
                         }
-                        else
+                        catch
                         {
                             Console.WriteLine("Ділення на 0 неможливе");
                             continue;
